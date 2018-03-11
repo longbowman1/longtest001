@@ -1,6 +1,6 @@
 {
 	"config": {
-		"preset": "JSAssist",
+		"preset": "default",
 		"theme": "jsassist",
 		"allowExternalSource": false,
 		"allowEmoticon": true,
@@ -15,7 +15,7 @@
 		},
 		"chat": {
 			"platformIcon": true,
-			"platform": "all",
+			"platform": "twitch",
 			"animation": "fade",
 			"chatFade": 60,
 			"font": "Nanum Gothic",
