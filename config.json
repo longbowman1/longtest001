@@ -1,0 +1,98 @@
+{
+	"config": {
+		"preset": "JSAssist",
+		"theme": "jsassist",
+		"allowExternalSource": false,
+		"allowEmoticon": true,
+		"ignoreMQEmoticon": true,
+		"ignoreNickname": "nightbot,싹둑,Mikuia,Twipkr",
+		"enableTwitchEmoticon": true,
+		"TwitchEmoticonsize": "2.0",
+		"streamer": {
+			"twitch": "goldmelover",
+			"kakaopot": "(카카오닉네임)",
+			"youtube": "(유튜브채널명)"
+		},
+		"chat": {
+			"platformIcon": true,
+			"platform": "all",
+			"animation": "fade",
+			"chatFade": 60,
+			"font": "Nanum Gothic",
+			"fontUsernameSize": 20,
+			"fontUsernameColor": "36, 113, 255",
+			"fontChatSize": 20,
+			"fontChatColor": "60, 60, 60",
+			"backgroundColor": "255, 255, 255",
+			"backgroundAlpha": 10,
+			"chatBackgroundColor": "255, 255, 255",
+			"chatBackgroundAlpha": 100
+		},
+		"themes": {
+			"jsassist": {
+				"css": [],
+				"js": [],
+				"image": {
+					"streamer": "",
+					"moderator": ""
+				}
+			}
+		}
+	},
+	"plugins": {
+		"command": {
+			"use": false
+		},
+		"dccon": {
+			"use": true,
+			"config": {
+				"address": "https://gist.githubusercontent.com/longbowman1/7c50900c2c6ec33b60a1188bf192b83a/raw/dbf689504412a1c8f9420141b836362c1c63ec4e/dccon_list.json",
+				"twitch": "https://cdn.rawgit.com/Lastorder-DC/dccon/v180125/global.json",
+				"twitch_sub": "https://cdn.rawgit.com/Lastorder-DC/dccon/v180125/sub.json"
+			}
+		},
+		"style": {
+			"use": false
+		},
+		"replace" : {
+			"use": true,
+			"config": {
+				"replace_list": {
+					"ㅗ": "법규",
+					"아기집": "Baby_House",
+					"자궁": "장궁",
+					"섹스": "기부",
+					"sex": "기부"
+				}
+			}
+		},
+		"block" : {
+			"use": true,
+			"config": {
+				"block_list": {
+					"나쁜말1": "keyword",
+					"나쁜닉네임1": "nickname",
+					"나쁜말2": "keyword",
+					"나쁜닉네임2": "nickname"
+				}
+			}
+		}
+	},
+	"provider": {
+		"JSAssist": {
+			"use": true,
+			"config": {
+				"oauth": "",
+				"do_not_use_jsassist": false,
+				"do_not_use_tapic": true,
+				"channelname": "goldmelover"
+			}
+		},
+		"mixer": {
+			"use": false,
+			"config": {
+				"channelid": 164900
+			}
+		}
+	}
+}
